@@ -1,19 +1,16 @@
 <!DOCTYPE html>
+<html lang="zh-cn">
 
-　　<html>
+{% include head.html %}
 
-　　<head>
+<body ontouchstart="">
 
-　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    {% include nav.html %}
 
-　　　　<title>{{ page.title }}</title>
+    {{ content }}
 
-　　</head>
+    {% include footer.html %}
 
-　　<body>
+</body>
 
-　　　　{{ content }}
-
-　　</body>
-
-　　</html>
+</html>
