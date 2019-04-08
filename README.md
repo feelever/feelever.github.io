@@ -1,1 +1,1 @@
-[striped64.md](striped64.md,"striped64.md")
+[striped64](striped64.md)
