@@ -15,4 +15,12 @@ $$PR(V_i)=(1-d)+d*\sum_{j\in In(V_i)}\frac{1}{|Out(V_j)|}PR(V_j)$$
 * $PR(V_i)$代表$V_i$rank值，$In(V_i)$表示$V_i$前驱集合，$Out(V_j)$表示$V_j$后继集合，$d$代表damping factor做平滑
 ####
 $$WS(V_i)=(1-d)+d*\sum_{j\in In(V_i)}\frac{W_ji}{\sum_{V_k\in Out(V_j)}w_{jk}}WS(V_j)$$
-* $PR(V_i)$代表$V_i$rank值，$In(V_i)$表示$V_i$前驱集合，$Out(V_j)$表示$V_j$后
+####
+$$Similarity(S_i,S_j)=\frac{|{w_k(w_k\in S_i \,and \,W_k\in S_j)}|}{log(|S_i|)+log(s_j)}$$
+* $S_i,S_j$表示各自句子词总数
+* $W_k$表示句子中的词
+
+####对比
+* TF-IDF与TextRank都依赖于分词；
+* TextRank考虑了词之间的关系，但是扔会将频繁词作为关键词
+* TextRank涉及到topK的图计算，提取速度较慢
