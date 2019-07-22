@@ -1,6 +1,7 @@
 # 中间件
-<a href="/_posts/middleWare.png" target="_blank"><img src="/_posts/middleWare.png"></a>
-<a href="/_posts/middleWare.km" target="_blank">middleWare.km</a>
+![middleWare.png](/img/middleWare.png)
+[middleWare.km](/img/middleWare.km)
+ps:图片需要看清晰的右键打开，或者下载
 
 
   
