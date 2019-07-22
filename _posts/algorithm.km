@@ -1,0 +1,1785 @@
+{
+    "root": {
+        "data": {
+            "id": "bvkaqu2dthc0",
+            "created": 1563241167055,
+            "text": "算法"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bvkaqx3oo4g0",
+                    "created": 1563241173664,
+                    "text": "基本",
+                    "progress": 5
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvkar0ktrko0",
+                            "created": 1563241181231,
+                            "text": "算法复杂度"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkar395j200",
+                                    "created": 1563241187055,
+                                    "text": "空间复杂度"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkar57a0ow0",
+                                    "created": 1563241191295,
+                                    "text": "时间复杂度"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkb3a6elaw0",
+                                            "created": 1563242142496,
+                                            "text": "最好"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkb3b4v6sg0",
+                                            "created": 1563242144580,
+                                            "text": "最坏"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkb3cx3f080",
+                                            "created": 1563242148464,
+                                            "text": "平均"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkar8h0mxk0",
+                                    "created": 1563241198415,
+                                    "text": "大O表示法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvkarhy5vow0",
+                    "created": 1563241219043,
+                    "text": "线性表",
+                    "expandState": "expand",
+                    "progress": 7
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvkarju45q80",
+                            "created": 1563241223151,
+                            "text": "链表"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkarnzvxwg0",
+                                    "created": 1563241232207,
+                                    "text": "单向链表"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkarrmujk00",
+                                    "created": 1563241240126,
+                                    "text": "双向链表"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkaru8sy5c0",
+                                    "created": 1563241245807,
+                                    "text": "舞蹈链"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkarwmjm1k0",
+                                            "created": 1563241250991,
+                                            "text": "X算法求精确覆盖"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkatn1220w0",
+                                    "created": 1563241386831,
+                                    "text": "特性"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkatoz75sg0",
+                                            "created": 1563241391071,
+                                            "text": "易于插入移除O(1)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkatsdgmkw0",
+                                            "created": 1563241398463,
+                                            "text": "难于查找O(n)"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvkarml2wi80",
+                            "created": 1563241229135,
+                            "text": "数组"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkatbb19nk0",
+                                    "created": 1563241361311,
+                                    "text": "易于查找"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkatizjj8o0",
+                                    "created": 1563241378031,
+                                    "text": "难于插入移除"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkauyt1zzk0",
+                                    "created": 1563241490831,
+                                    "text": "实例"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkav11j6so0",
+                                            "created": 1563241495697,
+                                            "text": "二分查找"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkav8tpwhc0",
+                                            "created": 1563241512639,
+                                            "text": "排序算法"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvkavi2lphs0",
+                    "created": 1563241532767,
+                    "text": "排序算法",
+                    "expandState": "collapse",
+                    "progress": 6
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvkavyvr63k0",
+                            "created": 1563241569359,
+                            "text": "分类"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkaweruc540",
+                                    "created": 1563241603951,
+                                    "text": "比较排序"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkawj5tp600",
+                                            "created": 1563241613503,
+                                            "text": "线性排序"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkb48nf4so0",
+                                                    "created": 1563242217536,
+                                                    "text": "冒泡排序"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvkb4awnhaw0",
+                                                    "created": 1563242222448,
+                                                    "text": "选择排序"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvkb4d9lga00",
+                                                    "created": 1563242227584,
+                                                    "text": "插入排序"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvkb4epzn2o0",
+                                                    "created": 1563242230752,
+                                                    "text": "希尔排序"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkawklomco0",
+                                            "created": 1563241616639,
+                                            "text": "分治思想排序"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkawp84tfk0",
+                                                    "created": 1563241626703,
+                                                    "text": "归并排序"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvkawuvvns00",
+                                                            "created": 1563241639023,
+                                                            "text": "优点：稳定\n缺点：非原地排序"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvkay0m2ya00",
+                                                                    "created": 1563241729856,
+                                                                    "text": "非原地排序可以通过timsort之类的变种来达到一定调整"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvkawrgu7680",
+                                                    "created": 1563241631583,
+                                                    "text": "快速排序"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvkaxccv55c0",
+                                                            "created": 1563241677056,
+                                                            "text": "缺点：不稳定，\n优点: 原地排序"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvkaxnugtxk0",
+                                                                    "created": 1563241702064,
+                                                                    "text": "不稳定可以通过三路选址，随机选址消除不稳定带来的问题"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvkayd3nj340",
+                                                                    "created": 1563241757040,
+                                                                    "text": "在数据分拆较小的时候可以使用插入排序来处理，区间值为<=8;优点"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkawggg7vc0",
+                                    "created": 1563241607615,
+                                    "text": "非比较排序"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkazm576x40",
+                                            "created": 1563241855088,
+                                            "text": "桶排序"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkazxlglhk0",
+                                                    "created": 1563241880016,
+                                                    "text": "适合平均分布"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvkb0b42smw0",
+                                                            "created": 1563241909440,
+                                                            "text": "外部排序"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvkb0dlru0w0",
+                                                            "created": 1563241914863,
+                                                            "text": "kafka的数据结构"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvkb0nt2mxc0",
+                                                            "created": 1563241937073,
+                                                            "text": "分桶归并"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvkb15s0pnk0",
+                                                            "created": 1563241976192,
+                                                            "text": "不均匀的时候需要考虑分桶"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkazofra8o0",
+                                            "created": 1563241860080,
+                                            "text": "基数排序"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkb0rqn94w0",
+                                                    "created": 1563241945633,
+                                                    "text": "通过高位补0进行多次操作排序"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkazri32nk0",
+                                            "created": 1563241866752,
+                                            "text": "计数排序"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkb07xh9iw0",
+                                                    "created": 1563241902511,
+                                                    "text": "适合集中分布"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvkb1meuoe00",
+                            "created": 1563242012400,
+                            "text": "排序的基本概念"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkb1ptvbgw0",
+                                    "created": 1563242019839,
+                                    "text": "稳定性"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkb1sbky4o0",
+                                    "created": 1563242025263,
+                                    "text": "原地排序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkb1tdxvp40",
+                                    "created": 1563242027583,
+                                    "text": "有序度"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkb1z1fkko0",
+                                            "created": 1563242039887,
+                                            "text": "满有序度"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkb215wsgw0",
+                                            "created": 1563242044511,
+                                            "text": "逆序度"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvkbb63s4uo0",
+                    "created": 1563242760544,
+                    "text": "散列表",
+                    "expandState": "collapse",
+                    "progress": 6
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvkbb8pzq4g0",
+                            "created": 1563242766240,
+                            "text": "hash"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkbbdu5ogw0",
+                                    "created": 1563242777376,
+                                    "text": "实例"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkbclo0w080",
+                                            "created": 1563242872784,
+                                            "text": "base64不建议"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkbco7azcw0",
+                                            "created": 1563242878303,
+                                            "text": "crc校验"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkbcxo5fmw0",
+                                            "created": 1563242898913,
+                                            "text": "MD5"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkbcze2mhk0",
+                                            "created": 1563242902657,
+                                            "text": "SHA加密"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkbd4zpjn40",
+                                            "created": 1563242914849,
+                                            "text": "murmur高效"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkbd969c400",
+                                                    "created": 1563242923952,
+                                                    "text": "guava 布隆过滤器 murmur3"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvkbdh6o8kg0",
+                                                    "created": 1563242941392,
+                                                    "text": "redis hyperloglog murmur2"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkbpz7gye00",
+                                            "created": 1563243920992,
+                                            "text": "LRU"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkbq0djqqo0",
+                                                    "created": 1563243923536,
+                                                    "text": "散列表检索"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvkbq4g6a6g0",
+                                                    "created": 1563243932402,
+                                                    "text": "链表过滤"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkbwx0tihs0",
+                                            "created": 1563244464785,
+                                            "text": "一致性hash"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkbwz3p3nk0",
+                                                    "created": 1563244469313,
+                                                    "text": "redis"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvkbba6d9wg0",
+                            "created": 1563242769407,
+                            "text": "hash冲突"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkbbod39sw0",
+                                    "created": 1563242800289,
+                                    "text": "开放寻址法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkbihf7ia80",
+                                            "created": 1563243333729,
+                                            "text": "数据量小"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkbijqjnq80",
+                                            "created": 1563243338768,
+                                            "text": "装载因子小"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkbiumq6n40",
+                                            "created": 1563243362481,
+                                            "text": "ThreadLocalMap"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkbbqh0pc00",
+                                    "created": 1563242804880,
+                                    "text": "链表法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkbe6lf29c0",
+                                            "created": 1563242996704,
+                                            "text": "过长转红黑树，java限定是8"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkbeg2ik0g0",
+                                                    "created": 1563243017328,
+                                                    "text": "防止hash碰撞攻击导致性能降低为O(n)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvkbh4q5wfc0",
+                            "created": 1563243227729,
+                            "text": "拓容"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkbh7wglb40",
+                                    "created": 1563243234640,
+                                    "text": "渐进hash"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkbha4x6ig0",
+                                            "created": 1563243239505,
+                                            "text": "redis"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkbhm7nuqw0",
+                                    "created": 1563243265792,
+                                    "text": "2倍拓容"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkbht72qnc0",
+                                            "created": 1563243280994,
+                                            "text": "java map"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvkdw7xsug80",
+                    "created": 1563250052403,
+                    "text": "树",
+                    "expandState": "expand",
+                    "progress": 2
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvkdw9h3mmg0",
+                            "created": 1563250055747,
+                            "text": "概念"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkdwe2r4o80",
+                                    "created": 1563250065763,
+                                    "text": "深度，叶子节点，层，根"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkdwmgevk00",
+                                    "created": 1563250084003,
+                                    "text": "遍历"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkdwod7dbs0",
+                                            "created": 1563250088163,
+                                            "text": "深度遍历"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkdwsy2p3c0",
+                                                    "created": 1563250098132,
+                                                    "text": "前中后序遍历"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvkdx2ncmog0",
+                                                            "created": 1563250119251,
+                                                            "text": "递归，stack"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkdwqj0tds0",
+                                            "created": 1563250092868,
+                                            "text": "广度遍历"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkdwym2vds0",
+                                                    "created": 1563250110467,
+                                                    "text": "层遍历"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvkdx6g6fc00",
+                                                            "created": 1563250127525,
+                                                            "text": "递归，stack"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvkdxfahlm80",
+                            "created": 1563250146772,
+                            "text": "二叉树"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkdxhf7xkg0",
+                                    "created": 1563250151412,
+                                    "text": " "
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkdxiut36w0",
+                                            "created": 1563250154531,
+                                            "text": "优点：绝对平衡\n缺点：添加删除节点操作复杂"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkdxstmk280",
+                                            "created": 1563250176227,
+                                            "text": "红黑树"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkdxutlwag0",
+                                                    "created": 1563250180580,
+                                                    "text": "近平衡"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvkdy58tyq00",
+                                                    "created": 1563250203268,
+                                                    "text": "操作规则"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvkdy6iz7c00",
+                                                            "created": 1563250206058,
+                                                            "text": "左旋，右旋"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvkdyalg7yw0",
+                                                            "created": 1563250214915,
+                                                            "text": "规则定义的树"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvkdyh3x3c80",
+                                                                    "created": 1563250229092,
+                                                                    "text": "根节点为黑色"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvkdyow52vk0",
+                                                                    "created": 1563250246036,
+                                                                    "text": "叶子节点为黑色（NIL）"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvkdyy1an3k0",
+                                                                    "created": 1563250265939,
+                                                                    "text": "上下2层节点不能同为红色，可以同为黑色"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvkdzbrx7ow0",
+                                                                    "created": 1563250295847,
+                                                                    "text": "该节点到指定可达节点黑色节点数目一致"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvkdzvghgxk0",
+                                                            "created": 1563250338691,
+                                                            "text": "操作步骤"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvke21c0vi00",
+                                                                    "created": 1563250508211,
+                                                                    "text": "分支主题"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkfrt2coyo0",
+                                    "created": 1563255348790,
+                                    "text": "堆排序"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkfrwa10zk0",
+                                            "created": 1563255355784,
+                                            "text": "大根堆小根堆"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkfs0568rs0",
+                                            "created": 1563255364198,
+                                            "text": "topK"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvkg1o1gck00",
+                            "created": 1563256121493,
+                            "text": "Trie Tree",
+                            "progress": 2
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkg1u49zpc0",
+                                    "created": 1563256134725,
+                                    "text": "DAT"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvkfsf60tqg0",
+                    "created": 1563255396901,
+                    "text": "图",
+                    "progress": 3
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvkfsl5yqgg0",
+                            "created": 1563255409958,
+                            "text": "图的概念",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkftcci1z40",
+                                    "created": 1563255469126,
+                                    "text": "加权图"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkftf8hm4o0",
+                                            "created": 1563255475414,
+                                            "text": "负数权"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkftuvu9g80",
+                                            "created": 1563255509479,
+                                            "text": "无负数权"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkgr65qsdk0",
+                                                    "created": 1563258120039,
+                                                    "text": "迪杰斯特拉算法O(n2)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkftzyemnk0",
+                                    "created": 1563255520517,
+                                    "text": "图的表达方法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkfu1crxqo0",
+                                            "created": 1563255523563,
+                                            "text": "邻接表"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkfubcuq880",
+                                            "created": 1563255545335,
+                                            "text": "邻接矩阵"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkfumnjbds0",
+                                                    "created": 1563255569926,
+                                                    "text": "弗洛伊德算法O(n3)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkfuz7h4qg0",
+                                    "created": 1563255597253,
+                                    "text": "遍历方法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkfv23sexk0",
+                                            "created": 1563255603560,
+                                            "text": "BFS"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkfv509y9c0",
+                                                    "created": 1563255609878,
+                                                    "text": "pre"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvkfvn407qg0",
+                                                    "created": 1563255649286,
+                                                    "text": "visited"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvkfvsc5jgg0",
+                                                    "created": 1563255660662,
+                                                    "text": "queue"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkfvbo036o0",
+                                            "created": 1563255624373,
+                                            "text": "DFS"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkfvd0om8g0",
+                                                    "created": 1563255627317,
+                                                    "text": "pre"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvkfwp1o1yo0",
+                                                    "created": 1563255731862,
+                                                    "text": "visited"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvkfwqwyj0o0",
+                                                    "created": 1563255735931,
+                                                    "text": "stack"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkfwey345s0",
+                                    "created": 1563255709878,
+                                    "text": "A*算法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvkfx1npuds0",
+                    "created": 1563255759317,
+                    "text": "字符匹配",
+                    "progress": 2,
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvkfx3cvbk00",
+                            "created": 1563255763014,
+                            "text": "Brute Force"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkfx8liio00",
+                                    "created": 1563255774421,
+                                    "text": "暴力算法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvkfxamjb5s0",
+                            "created": 1563255778836,
+                            "text": "Rabin-Karp"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bvkfy5c3jh40",
+                            "created": 1563255845685,
+                            "text": "Boyer-Moore"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bvkfye0clps0",
+                            "created": 1563255864566,
+                            "text": "KMP"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bvkg2wffhyw0",
+                            "created": 1563256218117,
+                            "text": "Trie Tree"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkg3dvdjtk0",
+                                    "created": 1563256256086,
+                                    "text": "DAT"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkg3fctgkw0",
+                                    "created": 1563256259318,
+                                    "text": "Appache Common"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkg3yhbwuw0",
+                                    "created": 1563256300949,
+                                    "text": "AC自动机"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvkgma1g0fk0",
+                    "created": 1563257736665,
+                    "text": "动态规划",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvkgme0kd9k0",
+                            "created": 1563257745319,
+                            "text": "贪心算法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bvkgmfg5qm80",
+                            "created": 1563257748439,
+                            "text": "回溯"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bvkgmigea1k0",
+                            "created": 1563257754983,
+                            "text": "动态规划特征"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkgmmsrfbc0",
+                                    "created": 1563257764438,
+                                    "text": "重复子问题"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkgmp9qm5s0",
+                                    "created": 1563257769818,
+                                    "text": "最优子结构"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkgmtjrzfs0",
+                                    "created": 1563257779132,
+                                    "text": "无后效性"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvkgn5whqg00",
+                            "created": 1563257806023,
+                            "text": "状态转移表法"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkgn8t83ag0",
+                                    "created": 1563257812355,
+                                    "text": "1.回溯算法实现"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkgnf0y0dc0",
+                                    "created": 1563257825883,
+                                    "text": "2.定义状态"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkgnju78c00",
+                                    "created": 1563257836359,
+                                    "text": "3.画递归树"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkgnohfn940",
+                                    "created": 1563257846471,
+                                    "text": "4找重复子问题"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkgnxmbo7s0",
+                                    "created": 1563257866358,
+                                    "text": "5.状态转移表"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkgo89qqdc0",
+                                    "created": 1563257889542,
+                                    "text": "6.状态转移填表"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkgocqxoko0",
+                                    "created": 1563257899288,
+                                    "text": "7.转化为代码"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvkgopa2gyg0",
+                            "created": 1563257926567,
+                            "text": "状态转移方程法"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkgorpdmsw0",
+                                    "created": 1563257931846,
+                                    "text": "最优子结构"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkgov9zac00",
+                                    "created": 1563257939622,
+                                    "text": "状态转移方程"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkgoxz0aw00",
+                                    "created": 1563257945489,
+                                    "text": "翻译代码"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvkgpr3qxd40",
+                            "created": 1563258008902,
+                            "text": "字符串纠错功能"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvkgs6jtve00",
+                    "created": 1563258199255,
+                    "text": "其他"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvkgs8hkuw00",
+                            "created": 1563258203472,
+                            "text": "bitmap"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkgsdas2740",
+                                    "created": 1563258213945,
+                                    "text": "布隆过滤器"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkgv8dwrcw0",
+                                            "created": 1563258438343,
+                                            "text": "murmur3"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkgsjd20qo0",
+                                    "created": 1563258227143,
+                                    "text": "hyperloglog"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkgv5i77y00",
+                                            "created": 1563258432072,
+                                            "text": "murmur2"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvkgvgfxf6o0",
+                            "created": 1563258455879,
+                            "text": "bayes"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkgvixwxfk0",
+                                    "created": 1563258461320,
+                                    "text": "垃圾邮件识别"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkgvqwrmow0",
+                                    "created": 1563258478665,
+                                    "text": "决策树"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvkgw5qq0xs0",
+                            "created": 1563258510951,
+                            "text": "向量空间相似度推荐"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bvkgyw5uvzk0",
+                            "created": 1563258725191,
+                            "text": "redis的数据结构"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkgza3kd140",
+                                    "created": 1563258755527,
+                                    "text": "list"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkgzbotkuw0",
+                                            "created": 1563258758989,
+                                            "text": "ziplist"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkgzir9kzs0",
+                                                    "created": 1563258774375,
+                                                    "text": "<512"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvpgx4swemw0",
+                                                    "created": 1563766387054,
+                                                    "text": "<64"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkgzgg7fqo0",
+                                            "created": 1563258769352,
+                                            "text": "linkedlist"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkgzlxv8ds0",
+                                    "created": 1563258781304,
+                                    "text": "hash"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkgzojopzk0",
+                                            "created": 1563258786977,
+                                            "text": "murmur2"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkgzr3lrnc0",
+                                            "created": 1563258792535,
+                                            "text": "ziplist,hashtable"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvkh6g46ydc0",
+                            "created": 1563259317175,
+                            "text": "disruptor"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkh6id6ck80",
+                                    "created": 1563259322072,
+                                    "text": "双下标head tail操作"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkh6zbcq080",
+                                    "created": 1563259358967,
+                                    "text": "CAS"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkh71509zc0",
+                                    "created": 1563259362937,
+                                    "text": "Cacheline Padding"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvkgyz1buw00",
+                            "created": 1563258731448,
+                            "text": "搜索引擎的算法\n注意考虑中间件lucene的对比"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvkgz1jaeqw0",
+                                    "created": 1563258736887,
+                                    "text": "采集"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkgz2wsots0",
+                                            "created": 1563258739881,
+                                            "text": "links,bin"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkh0jjwqm00",
+                                            "created": 1563258854471,
+                                            "text": "bloom_filter.bin"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkh1dx0j0g0",
+                                            "created": 1563258920567,
+                                            "text": "doc_raw.bin"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkh1hmg6880",
+                                            "created": 1563258928635,
+                                            "text": "doc_id.bin"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkh1werv5s0",
+                                    "created": 1563258960823,
+                                    "text": "分析"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkh1xqfusg0",
+                                            "created": 1563258963705,
+                                            "text": "html预处理"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkh24uarc00",
+                                            "created": 1563258979176,
+                                            "text": "分词预处理"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkh2jpc4ps0",
+                                                    "created": 1563259011527,
+                                                    "text": "term_id.bin"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvkh2rb84j40",
+                                                    "created": 1563259028088,
+                                                    "text": "tmp_index.bin"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkh30cniq80",
+                                    "created": 1563259047766,
+                                    "text": "索引"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkh396h4w00",
+                                            "created": 1563259066983,
+                                            "text": "多路归并排序处理相同文件"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvkh3xnwlmo0",
+                                                    "created": 1563259120280,
+                                                    "text": "分支主题",
+                                                    "image": "https://static001.geekbang.org/resource/image/c9/e6/c91c960472d88233f60d5d4ce6538ee6.jpg",
+                                                    "imageTitle": "",
+                                                    "imageSize": {
+                                                        "width": 200,
+                                                        "height": 124
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkh4uybu8w0",
+                                            "created": 1563259192744,
+                                            "text": "index.bin"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkh4lko8fc0",
+                                            "created": 1563259172327,
+                                            "text": "term_offset.bin"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvkh50d2e7s0",
+                                    "created": 1563259204519,
+                                    "text": " 搜索"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvkh52dkw200",
+                                            "created": 1563259208904,
+                                            "text": "分词"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkh562xqa00",
+                                            "created": 1563259216967,
+                                            "text": "doc_id.bin"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkh5aqyrh40",
+                                            "created": 1563259227127,
+                                            "text": "term_id.bin"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkh5qpozbs0",
+                                            "created": 1563259261879,
+                                            "text": "index.bin"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvkh5t2djm80",
+                                            "created": 1563259266999,
+                                            "text": "term_offset.bin"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

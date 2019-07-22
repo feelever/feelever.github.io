@@ -1,0 +1,2107 @@
+{
+    "root": {
+        "data": {
+            "id": "bvfl8u318ig0",
+            "created": 1562762988965,
+            "text": "JVM "
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bvfl9ivme5c0",
+                    "created": 1562763042936,
+                    "text": "java内存"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bvfl9upshco0",
+                    "created": 1562763068705,
+                    "text": "垃圾收集器"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bvfl9zhu78g0",
+                    "created": 1562763079108,
+                    "text": "编译优化",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvflc21ssgw0",
+                            "created": 1562763241397,
+                            "text": "JIT编译器",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfnqbb4k4o0",
+                                    "created": 1562770000870,
+                                    "text": "字节码转机器码"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnqfrism80",
+                                    "created": 1562770010568,
+                                    "text": "运行时优化"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnqot1ozk0",
+                                    "created": 1562770030252,
+                                    "text": "分类"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfnqsk52xs0",
+                                            "created": 1562770038420,
+                                            "text": "C1（client）"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfnrbd9qhc0",
+                                                    "created": 1562770079364,
+                                                    "text": "简单可靠优化"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnre5asw80",
+                                                    "created": 1562770085412,
+                                                    "text": "关注局部性能优化"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnqy7do6g0",
+                                            "created": 1562770050709,
+                                            "text": "C2(server)"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfnrl9o8880",
+                                                    "created": 1562770100914,
+                                                    "text": "编译耗时较长优化"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnruvl8400",
+                                                    "created": 1562770121830,
+                                                    "text": "不可靠激进优化"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnryzemhc0",
+                                                    "created": 1562770130768,
+                                                    "text": "服务端"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfns8mh8h40",
+                                    "created": 1562770151754,
+                                    "text": "热点探测"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfnsb1jicw0",
+                                            "created": 1562770157019,
+                                            "text": "多次调用的代码"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnsivt3y80",
+                                            "created": 1562770174086,
+                                            "text": "多次调用的循环体"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnsnr7vk80",
+                                            "created": 1562770184693,
+                                            "text": "采样计数"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnt51nx9c0",
+                                    "created": 1562770222330,
+                                    "text": "方法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfnt6zsty00",
+                                            "created": 1562770226570,
+                                            "text": "公共表达式删除"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfntiq063k0",
+                                            "created": 1562770252100,
+                                            "text": "数组边界检查移除"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfntp51sjk0",
+                                            "created": 1562770266070,
+                                            "text": "方法内联"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfntrv4b0g0",
+                                            "created": 1562770272000,
+                                            "text": "逃逸分析"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfntxh1jow0",
+                                                    "created": 1562770284209,
+                                                    "text": "分析对象作用范围"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnu8g14ww0",
+                                                    "created": 1562770308093,
+                                                    "text": "高效优化"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfnuiow7u80",
+                                                            "created": 1562770330397,
+                                                            "text": "栈上分配（string）"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfnun9qcd40",
+                                                            "created": 1562770340364,
+                                                            "text": "同步消除"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfnuq6lacg0",
+                                                            "created": 1562770346704,
+                                                            "text": "标量替换"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvflca96iuo0",
+                            "created": 1562763259257,
+                            "text": "java编译器"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfnpaxltxs0",
+                                    "created": 1562769921688,
+                                    "text": "JIT占用时间"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnperqbw80",
+                                    "created": 1562769930040,
+                                    "text": "动态拓展"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfnps6f0a80",
+                                            "created": 1562769959226,
+                                            "text": "运行时加载新类"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnpvardnk0",
+                                            "created": 1562769966019,
+                                            "text": "全局优化难"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnq0g1i4o0",
+                                            "created": 1562769977223,
+                                            "text": "编译器无法看到全貌"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnpilgriw0",
+                                    "created": 1562769938368,
+                                    "text": "性能下降，开发提升"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvflchblv9s0",
+                            "created": 1562763274642,
+                            "text": "解释器"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfno7yau9s0",
+                                    "created": 1562769836836,
+                                    "text": "javac"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnoel4k9k0",
+                                    "created": 1562769851277,
+                                    "text": "语法糖"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnoo0g16w0",
+                                    "created": 1562769871794,
+                                    "text": "编码风格"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvfla6m45wg0",
+                    "created": 1562763094604,
+                    "text": "走进java"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvflabxbboo0",
+                            "created": 1562763106165,
+                            "text": "jdk"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bvfladw4q1k0",
+                            "created": 1562763110447,
+                            "text": "版本"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfld8ijylc0",
+                                    "created": 1562763333835,
+                                    "text": "1.5",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfldbhhfxc0",
+                                            "created": 1562763340300,
+                                            "text": "语法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfldls957s0",
+                                                    "created": 1562763362719,
+                                                    "text": "自动装箱"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfldnvww7k0",
+                                                    "created": 1562763367294,
+                                                    "text": "泛型"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfle8jpcco0",
+                                                            "created": 1562763412268,
+                                                            "text": "类型擦除"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvflejg5iwg0",
+                                                            "created": 1562763435998,
+                                                            "text": "内联性能"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfldrm40600",
+                                                    "created": 1562763375409,
+                                                    "text": "动态注解"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfldvvumn40",
+                                                    "created": 1562763384705,
+                                                    "text": "枚举"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfle05cjmo0",
+                                                    "created": 1562763393986,
+                                                    "text": "可变长参数"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfle3hhk3k0",
+                                                    "created": 1562763401251,
+                                                    "text": "foreach"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfldf74w540",
+                                            "created": 1562763348382,
+                                            "text": "虚拟机"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvflerb1y7c0",
+                                                    "created": 1562763453104,
+                                                    "text": "JMM改进"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvflewddumg0",
+                                                    "created": 1562763464129,
+                                                    "text": "JUC"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvflf7lx96w0",
+                                    "created": 1562763488590,
+                                    "text": "1.6",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvflg5suwdc0",
+                                            "created": 1562763563020,
+                                            "text": "虚拟机"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvflg8r52s80",
+                                                    "created": 1562763569446,
+                                                    "text": "锁与同步"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvflgdw8p8g0",
+                                                    "created": 1562763580639,
+                                                    "text": "垃圾收集"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvflgkudhi80",
+                                                    "created": 1562763595763,
+                                                    "text": "类加载"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvflflc3e3c0",
+                                    "created": 1562763518471,
+                                    "text": "1.7",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvflgresm3s0",
+                                            "created": 1562763610059,
+                                            "text": "switch支持String"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvflgxxancw0",
+                                            "created": 1562763624238,
+                                            "text": "null值自动处理"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvflfq4n84w0",
+                                    "created": 1562763528904,
+                                    "text": "1.8",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvflh2x8oqg0",
+                                            "created": 1562763635119,
+                                            "text": "函数式接口"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvflha5ia4o0",
+                                            "created": 1562763650856,
+                                            "text": "Lambda"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvflhe391jk0",
+                                            "created": 1562763659427,
+                                            "text": "接口增强"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvflfsrt8i80",
+                                    "created": 1562763534659,
+                                    "text": "1.9",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvflhhe31i80",
+                                            "created": 1562763666612,
+                                            "text": "虚拟机 "
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvflhox1r080",
+                                                    "created": 1562763682996,
+                                                    "text": "默认G1，优化G1"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvflhmmhqf40",
+                                            "created": 1562763678005,
+                                            "text": "特性"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvflhw0ogcw0",
+                                                    "created": 1562763698453,
+                                                    "text": "JSHELL"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfli0lsvog0",
+                                                    "created": 1562763708438,
+                                                    "text": "微基准测试"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfmlpatp4g0",
+                                                    "created": 1562766818396,
+                                                    "text": "HTTP2.0"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfmot6x8e00",
+                                                    "created": 1562767061960,
+                                                    "text": "模块化"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfmowzpzgw0",
+                                                            "created": 1562767070234,
+                                                            "text": "jigsaw"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvflfx7fd6w0",
+                                    "created": 1562763544310,
+                                    "text": "1.10"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvflag33hgo0",
+                            "created": 1562763115222,
+                            "text": "虚拟机"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfmm31vvow0",
+                                    "created": 1562766848330,
+                                    "text": "HOTSPOT"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfmmescwso0",
+                                            "created": 1562766873876,
+                                            "text": "openjdk"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfmmir8a400",
+                                            "created": 1562766882515,
+                                            "text": "sun jdk"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfmmng1rjk0",
+                                            "created": 1562766892722,
+                                            "text": "热点代码探测"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvflarw5v600",
+                    "created": 1562763140924,
+                    "text": "内存管理机制"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvflaw7zw2w0",
+                            "created": 1562763150347,
+                            "text": "内存区域",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfmpiftkzk0",
+                                    "created": 1562767116917,
+                                    "text": "程序计数器"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfmqy0udkg0",
+                                            "created": 1562767229204,
+                                            "text": "当前程序执行的行数"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfmr48z0x40",
+                                                    "created": 1562767242756,
+                                                    "text": "从0开始"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfmr8vui2g0",
+                                                    "created": 1562767252847,
+                                                    "text": "javap可以查看执行的行数"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfmrgfwidc0",
+                                                    "created": 1562767269297,
+                                                    "text": "线程私有"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfmppjc5kg0",
+                                    "created": 1562767132367,
+                                    "text": "java虚拟机栈"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfms0ott9k0",
+                                            "created": 1562767313372,
+                                            "text": "方法内存模型"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfms451to00",
+                                            "created": 1562767320883,
+                                            "text": "栈帧=方法"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfmsmbsqqw0",
+                                            "created": 1562767360474,
+                                            "text": "线程私有"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfmq02ggrk0",
+                                    "created": 1562767155291,
+                                    "text": "本地方法栈"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfmspl7fm00",
+                                            "created": 1562767367573,
+                                            "text": "native 方法 JNI"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfmsu7n3fk0",
+                                            "created": 1562767377637,
+                                            "text": "线程私有"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfmq2zciaw0",
+                                    "created": 1562767161634,
+                                    "text": "java堆"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfmt6040740",
+                                            "created": 1562767403303,
+                                            "text": "实例位置"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfmta7ruqw0",
+                                            "created": 1562767412473,
+                                            "text": "GC主要地方"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfmtt8162w0",
+                                            "created": 1562767453848,
+                                            "text": "指令"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfmqa6kzxk0",
+                                    "created": 1562767177309,
+                                    "text": "方法区"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfmu6t7cow0",
+                                            "created": 1562767483426,
+                                            "text": "存储被JVM加载的信息"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfmuq12ujk0",
+                                                    "created": 1562767525261,
+                                                    "text": "类信息"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfmusu7p1s0",
+                                                    "created": 1562767531376,
+                                                    "text": "常量"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfmuzau4200",
+                                                    "created": 1562767545442,
+                                                    "text": "静态变量"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfmvbl5awg0",
+                                                    "created": 1562767572187,
+                                                    "text": "即时编译的代码"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfmvj2jtfk0",
+                                            "created": 1562767588477,
+                                            "text": "运行常量池"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfmvocpicg0",
+                                                    "created": 1562767599975,
+                                                    "text": "String str=\"\""
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvflazdj31c0",
+                            "created": 1562763157212,
+                            "text": "GC",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfmy2w8ryo0",
+                                    "created": 1562767788359,
+                                    "text": "对象是否存活",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfmyadczlk0",
+                                            "created": 1562767804632,
+                                            "text": "引用计数法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfmz7t2ovs0",
+                                                    "created": 1562767877416,
+                                                    "text": "实现简单，效率高"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfmzf1juds0",
+                                                    "created": 1562767893166,
+                                                    "text": "成环引用问题"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfmyw9v0f40",
+                                            "created": 1562767852309,
+                                            "text": "可达性方法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfmzufo25c0",
+                                                    "created": 1562767926671,
+                                                    "text": "GCROOT"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfmzzw4zfc0",
+                                                            "created": 1562767938551,
+                                                            "text": "虚拟机栈中的引用对象"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfn0gzpehc0",
+                                                            "created": 1562767975772,
+                                                            "text": "方法区静态对象引用对象"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfn0p0tho80",
+                                                            "created": 1562767993253,
+                                                            "text": "方法区敞亮引用对象"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfn0rv3mew0",
+                                                            "created": 1562767999438,
+                                                            "text": "本地方法栈引用对象"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfmyznlfww0",
+                                            "created": 1562767859670,
+                                            "text": "引用"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfn16lgr3s0",
+                                                    "created": 1562768031507,
+                                                    "text": "强引用"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfn1us43hc0",
+                                                            "created": 1562768084152,
+                                                            "text": "存在不回收"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfn29fojgw0",
+                                                    "created": 1562768116052,
+                                                    "text": "软引用"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfn2idh0m80",
+                                                            "created": 1562768135509,
+                                                            "text": "内存溢出前回收"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfn2o91sr40",
+                                                            "created": 1562768148303,
+                                                            "text": "回收溢出抛异常"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfn19rroyw0",
+                                                    "created": 1562768038419,
+                                                    "text": "弱引用"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfn2w5ako80",
+                                                            "created": 1562768165490,
+                                                            "text": "GC就回收"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfn1gfo4mw0",
+                                                    "created": 1562768052924,
+                                                    "text": "虚引用"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfn38omz8w0",
+                                                            "created": 1562768192781,
+                                                            "text": "回收时系统通知"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfn4ix0a7s0",
+                                    "created": 1562768293419,
+                                    "text": "内存分配策略"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfn4uf0dao0",
+                                            "created": 1562768318452,
+                                            "text": "优先EDEN区域分配"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfn523l1fs0",
+                                            "created": 1562768335175,
+                                            "text": "大对象直接进入老年代"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfn5cccty80",
+                                            "created": 1562768357474,
+                                            "text": "长期存活（15）升级老年代"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfn5r0pz6o0",
+                                    "created": 1562768389422,
+                                    "text": "垃圾收集算法",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfn5ur51zk0",
+                                            "created": 1562768397550,
+                                            "text": "标记清除"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfn62k8g4g0",
+                                                    "created": 1562768414546,
+                                                    "text": "how",
+                                                    "progress": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfn64q8yn40",
+                                                            "created": 1562768419264,
+                                                            "text": "标记回收对象"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfn696e5y80",
+                                                            "created": 1562768428947,
+                                                            "text": "统一回收"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfn6g2h5hc0",
+                                                    "created": 1562768443948,
+                                                    "text": "what"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfn6k5rze80",
+                                                            "created": 1562768452854,
+                                                            "text": "效率问题"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfn6t86pyg0",
+                                                            "created": 1562768472591,
+                                                            "text": "空间效率问题"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfn70btkvk0",
+                                                    "created": 1562768488048,
+                                                    "text": "分支主题"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfn6dzbkp40",
+                                            "created": 1562768439403,
+                                            "text": "复制算法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfn7b8dm6o0",
+                                                    "created": 1562768511785,
+                                                    "text": "新生代 from to ",
+                                                    "progress": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfn7wy78sw0",
+                                                    "created": 1562768559058,
+                                                    "text": "空间浪费1/2"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfn818tq8w0",
+                                                    "created": 1562768568408,
+                                                    "text": "高效简单"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfn8t7o1c80",
+                                            "created": 1562768629288,
+                                            "text": "标记整理"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfn8v4rheo0",
+                                                    "created": 1562768633466,
+                                                    "text": "how",
+                                                    "progress": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfn92jrwq80",
+                                                    "created": 1562768649611,
+                                                    "text": "存活率高对象使用"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfn98vctfs0",
+                                            "created": 1562768663372,
+                                            "text": "分代收集"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfn9ek6g2w0",
+                                                    "created": 1562768675757,
+                                                    "text": "不同对象存活时间不同\n针对之选用不同的算法"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfna2lavi00",
+                                                    "created": 1562768728068,
+                                                    "text": "新生代朝生夕死"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfna9sxgdk0",
+                                                            "created": 1562768743766,
+                                                            "text": "复制算法"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnad1eqow0",
+                                                    "created": 1562768750809,
+                                                    "text": "老年代"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfnaigob2w0",
+                                                            "created": 1562768762616,
+                                                            "text": "存活率高"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfnakk7uko0",
+                                                            "created": 1562768767184,
+                                                            "text": "标记清除，标记整理"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvflb1o83kw0",
+                            "created": 1562763162212,
+                            "text": "监控工具"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfnbgtrbgg0",
+                                    "created": 1562768837418,
+                                    "text": "jmap"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnbify4vk0",
+                                    "created": 1562768840937,
+                                    "text": "jstat"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnbk59cf40",
+                                    "created": 1562768844644,
+                                    "text": "jstack"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnbnc988o0",
+                                    "created": 1562768851597,
+                                    "text": "jps"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnbvgro5s0",
+                                    "created": 1562768869284,
+                                    "text": "jmx"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnbwyn9q00",
+                                    "created": 1562768872542,
+                                    "text": "mat，jhat"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvflbial1y00",
+                    "created": 1562763198392,
+                    "text": "虚拟机执行子系统"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvflbnffo7k0",
+                            "created": 1562763209570,
+                            "text": "字节码"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfnc7eop5c0",
+                                    "created": 1562768895280,
+                                    "text": "程序编译->字节码->JVM解析"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfncq4lcr40",
+                                    "created": 1562768936028,
+                                    "text": "java规范"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfncur61s80",
+                                            "created": 1562768946100,
+                                            "text": "java语言规范"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfncx91wrc0",
+                                            "created": 1562768951535,
+                                            "text": "虚拟机规范"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfndgv7eo80",
+                                    "created": 1562768994234,
+                                    "text": "类文件",
+                                    "progress": 3
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfndjqf8io0",
+                                            "created": 1562769000475,
+                                            "text": "开始标志"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfng2dunko0",
+                                                    "created": 1562769197802,
+                                                    "text": "魔法数字"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfng7uey5c0",
+                                                    "created": 1562769209687,
+                                                    "text": "版本、主次"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnest3ex40",
+                                            "created": 1562769098592,
+                                            "text": "常量池"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfndr2tqmg0",
+                                            "created": 1562769016462,
+                                            "text": "访问标志"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfndu1spl40",
+                                                    "created": 1562769022931,
+                                                    "text": "private/public/protected/default"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfne32khcw0",
+                                            "created": 1562769042568,
+                                            "text": "索引集合",
+                                            "progress": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfne9d33xc0",
+                                            "created": 1562769056265,
+                                            "text": "字段表集合"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfned0ondk0",
+                                            "created": 1562769064222,
+                                            "text": "方法表集合"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfneffjxwo0",
+                                            "created": 1562769069475,
+                                            "text": "属性表集合"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvflbtmovwg0",
+                            "created": 1562763223069,
+                            "text": "类加载",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfnd7hj3v40",
+                                    "created": 1562768973816,
+                                    "text": "概述"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfnhhkoz0o0",
+                                            "created": 1562769309232,
+                                            "text": "将class文件按照规则加载到内存中"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnhumy9s80",
+                                            "created": 1562769337666,
+                                            "text": "校验->转换-》初始化-》java类型"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnh5ai3nk0",
+                                    "created": 1562769282494,
+                                    "text": "特点"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfnih8g8k80",
+                                            "created": 1562769386856,
+                                            "text": "动态加载链接"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfnik5hv5k0",
+                                                    "created": 1562769393207,
+                                                    "text": "网络字节流"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfnimua6lc0",
+                                                            "created": 1562769399060,
+                                                            "text": "jsp"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfninxydww0",
+                                                            "created": 1562769401458,
+                                                            "text": "servlet"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfniuvn7oo0",
+                                            "created": 1562769416556,
+                                            "text": "程序运行时JIT"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnh6wby2g0",
+                                    "created": 1562769285991,
+                                    "text": "时机"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfnj69pb280",
+                                            "created": 1562769441351,
+                                            "text": "new指令"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnjb9j5400",
+                                            "created": 1562769452224,
+                                            "text": "反射调用"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnjg61pjs0",
+                                            "created": 1562769462898,
+                                            "text": "初始化类先初始化父类"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnjnmeriw0",
+                                            "created": 1562769479124,
+                                            "text": "JVM启动主类"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnh9rztfs0",
+                                    "created": 1562769292259,
+                                    "text": "过程"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfnjxnuf4w0",
+                                            "created": 1562769500979,
+                                            "text": "加载"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfnk7ayojc0",
+                                                    "created": 1562769521968,
+                                                    "text": "权限定名+classloader"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnkghrsyg0",
+                                                    "created": 1562769541971,
+                                                    "text": "静态数据结构->方法区运行时结构",
+                                                    "progress": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnkvlpm8g0",
+                                                    "created": 1562769574861,
+                                                    "text": "内存生成对象-》数据访问接口"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnjyy31og0",
+                                            "created": 1562769503775,
+                                            "text": "验证"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfnl796s2o0",
+                                                    "created": 1562769600225,
+                                                    "text": "准确性，安全性"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnlh6udbk0",
+                                                    "created": 1562769621851,
+                                                    "text": "验证内容"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnk0yfo340",
+                                            "created": 1562769508150,
+                                            "text": "准备"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnk2grrlk0",
+                                            "created": 1562769511435,
+                                            "text": "解析"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnk40vfow0",
+                                            "created": 1562769514828,
+                                            "text": "初始化"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnhbcl97k0",
+                                    "created": 1562769295681,
+                                    "text": "类加载器"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfnlp2fb3s0",
+                                            "created": 1562769638998,
+                                            "text": "双亲委派模型"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfnltcqlm00",
+                                                    "created": 1562769648329,
+                                                    "text": "BootstrapClassLoader"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfnmbz6clk0",
+                                                            "created": 1562769688867,
+                                                            "text": "lib"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnlxbgwaw0",
+                                                    "created": 1562769656959,
+                                                    "text": "ExtendClassLoader"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfnm85f6b40",
+                                                            "created": 1562769680538,
+                                                            "text": "lib/ext"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnmdkzlpc0",
+                                                    "created": 1562769692363,
+                                                    "text": "ApplicationClassLoader"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfnmzzvnd40",
+                                                            "created": 1562769741153,
+                                                            "text": "classpath"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnn6fgxko0",
+                                                    "created": 1562769755156,
+                                                    "text": "auto"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnnbzxahk0",
+                                                    "created": 1562769767277,
+                                                    "text": "加载的时候交给父加载器加载，递归下来"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfnnpdtx280",
+                                                            "created": 1562769796416,
+                                                            "text": "安全"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvfnd2vvd6g0",
+                            "created": 1562768963799,
+                            "text": "平台无关"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvflcnkfa6g0",
+                    "created": 1562763288235,
+                    "text": "并发控制"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvflcqranw00",
+                            "created": 1562763295181,
+                            "text": "JMM"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfnv46cba80",
+                                    "created": 1562770377164,
+                                    "text": "内存"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfnv6fucw00",
+                                            "created": 1562770382092,
+                                            "text": "主内存"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfnvc3m97c0",
+                                                    "created": 1562770394414,
+                                                    "text": "所有变量"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnvhwk55k0",
+                                            "created": 1562770407047,
+                                            "text": "工作内存"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfnvjeeh140",
+                                                    "created": 1562770410303,
+                                                    "text": "线程使用变量"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnvodhafc0",
+                                                    "created": 1562770421131,
+                                                    "text": "主内存副本拷贝"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnw102iqo0",
+                                    "created": 1562770448619,
+                                    "text": "volatile"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfnw4hxctc0",
+                                            "created": 1562770456229,
+                                            "text": "对所有线程可见"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnwujk7m00",
+                                            "created": 1562770512924,
+                                            "text": "指令重排禁止"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvflct74vow0",
+                            "created": 1562763300493,
+                            "text": "线程安全"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfnx5z29q00",
+                                    "created": 1562770537806,
+                                    "text": "互斥同步"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfnx982xg80",
+                                            "created": 1562770544881,
+                                            "text": "统一数据只能被一个线程拥有"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnxjs73b40",
+                                            "created": 1562770567866,
+                                            "text": "sync"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfnxlec0a00",
+                                                    "created": 1562770571381,
+                                                    "text": "可重入"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnxohamp40",
+                                                    "created": 1562770578090,
+                                                    "text": "资源不挂起"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnxvcmh140",
+                                                    "created": 1562770593045,
+                                                    "text": "moniterenter，moniterexit"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfny70w21s0",
+                                                    "created": 1562770618457,
+                                                    "text": "偏向锁，重锁，轻锁"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnyovf0vk0",
+                                                    "created": 1562770657308,
+                                                    "text": "悲观锁"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfnyqlgui00",
+                                                    "created": 1562770661060,
+                                                    "text": "性能消耗"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnz9ek3ag0",
+                                    "created": 1562770702001,
+                                    "text": "不阻塞同步"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfnzdz7kg00",
+                                            "created": 1562770711957,
+                                            "text": "乐观锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnzgumcxk0",
+                                            "created": 1562770718212,
+                                            "text": "cas原子性"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfnzpbw1ps0",
+                                    "created": 1562770736669,
+                                    "text": "锁优化"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfnzr2h2a00",
+                                            "created": 1562770740453,
+                                            "text": "自适应字旋"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfnzyfizj40",
+                                            "created": 1562770756480,
+                                            "text": "锁消除"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfo04ap83s0",
+                                            "created": 1562770769248,
+                                            "text": "锁粗化"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfo0ezx1eo0",
+                                            "created": 1562770792541,
+                                            "text": "轻量锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfo0h6htgo0",
+                                            "created": 1562770797292,
+                                            "text": "偏向锁"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

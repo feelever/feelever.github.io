@@ -1,0 +1,1786 @@
+{
+    "root": {
+        "data": {
+            "id": "bvfeym5mcgw0",
+            "created": 1562745261406,
+            "text": "IO"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bvffit6jycw0",
+                    "created": 1562746843983,
+                    "text": "IO架构",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvff03dwvps0",
+                            "created": 1562745377277,
+                            "text": "字节流",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvff06fvm680",
+                                    "created": 1562745383926,
+                                    "text": "InputStream",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvff0hxfug00",
+                                            "created": 1562745408932,
+                                            "text": "FileInputStream",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff0ml81gw0",
+                                            "created": 1562745419078,
+                                            "text": "FilterInputStream",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvff4aq4c480",
+                                                    "created": 1562745706709,
+                                                    "text": "BufferReadInputStream",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvff4h1orkg0",
+                                                    "created": 1562745720469,
+                                                    "text": "DataInputStream",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvff4pm7t9c0",
+                                                    "created": 1562745739125,
+                                                    "text": "PushbackInputStream",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff2lccpxk0",
+                                            "created": 1562745573093,
+                                            "text": "ObjectInputStream",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff2umtlps0",
+                                            "created": 1562745593317,
+                                            "text": "PipedInputStream",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff2yslda80",
+                                            "created": 1562745602373,
+                                            "text": "SequenceInputStream",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff3jw0nb40",
+                                            "created": 1562745648292,
+                                            "text": "StringBufferInputStream",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff3ietoo00",
+                                            "created": 1562745645076,
+                                            "text": "ByteArraryInputStream",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvff0d5gjq80",
+                                    "created": 1562745398533,
+                                    "text": "OutputStream",
+                                    "layout": null,
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvff47d6sz40",
+                                            "created": 1562745699397,
+                                            "text": "FileOutputStream",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff5tmqy5k0",
+                                            "created": 1562745826228,
+                                            "text": "FilterOutputStream",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvff6hob8eg0",
+                                                    "created": 1562745878565,
+                                                    "text": "BufferedOutputStream",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvff6upquu80",
+                                                    "created": 1562745906950,
+                                                    "text": "DataOutputStream",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvff6xy5gps0",
+                                                    "created": 1562745913989,
+                                                    "text": "PrintStream",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff5yg2t9c0",
+                                            "created": 1562745836709,
+                                            "text": "ObjectOutputStream",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff6865kag0",
+                                            "created": 1562745857876,
+                                            "text": "PipedOutputStream",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff6bkp24g0",
+                                            "created": 1562745865286,
+                                            "text": "ByteArrayOutputStream",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvffj756m080",
+                    "created": 1562746874375,
+                    "text": "IO架构",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvff19a24rk0",
+                            "created": 1562745468468,
+                            "text": "字符流",
+                            "expandState": "collapse",
+                            "layout": null,
+                            "layout_mind_offset": {
+                                "x": 26,
+                                "y": 6
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvff7azucc00",
+                                    "created": 1562745942389,
+                                    "text": "Reader",
+                                    "layout": null,
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvff7qioz3k0",
+                                            "created": 1562745976181,
+                                            "text": "BufferredReader",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff8101vq80",
+                                            "created": 1562745998998,
+                                            "text": "InputStreamReader",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvff8xy0cl40",
+                                                    "created": 1562746070709,
+                                                    "text": "FileReader",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff8bqvz9s0",
+                                            "created": 1562746022389,
+                                            "text": "StringReader",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff8fl9wsg0",
+                                            "created": 1562746030757,
+                                            "text": "PipedReader",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff8imu1lk0",
+                                            "created": 1562746037381,
+                                            "text": "CharArrayReader",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff8nhzy880",
+                                            "created": 1562746047973,
+                                            "text": "FilterReader",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvff8phpybs0",
+                                                    "created": 1562746052309,
+                                                    "text": "PushbackReader",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvff7ehjaa00",
+                                    "created": 1562745949989,
+                                    "text": "Writer",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvff99co2l40",
+                                            "created": 1562746095540,
+                                            "text": "BufferedWriter",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff9dmfl280",
+                                            "created": 1562746104837,
+                                            "text": "OutputStreamWriter",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvffa0nfrpc0",
+                                                    "created": 1562746154964,
+                                                    "text": "FileWriter",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvff9v5j0ig0",
+                                            "created": 1562746142997,
+                                            "text": "PrinterWriter",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvffa4q1h9k0",
+                                            "created": 1562746163828,
+                                            "text": "StringWriter",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvffa9652yg0",
+                                            "created": 1562746173509,
+                                            "text": "PipedWriter",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvffachzlew0",
+                                            "created": 1562746180756,
+                                            "text": "CharArrayWriter",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvffanhl2ls0",
+                                            "created": 1562746204676,
+                                            "text": "FilterWriter",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvffj0klkmw0",
+                    "created": 1562746860070,
+                    "text": "NIO",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvfflipj5sw0",
+                            "created": 1562747056278,
+                            "text": "模型",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvffosw7aio0",
+                                    "created": 1562747313542,
+                                    "text": "阻塞模型",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvffpjrvko00",
+                                            "created": 1562747372054,
+                                            "text": "实例",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvffqr806ns0",
+                                                    "created": 1562747466630,
+                                                    "text": "JAVA BIO",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvffqu2n53s0",
+                                                    "created": 1562747472837,
+                                                    "text": "阻塞socket",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvffpppokso0",
+                                            "created": 1562747384982,
+                                            "text": "特点",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvffq14w2x40",
+                                                    "created": 1562747409846,
+                                                    "text": "阻塞挂起不占用cpu",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvffq9rjxnc0",
+                                                    "created": 1562747428630,
+                                                    "text": "开发简单",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvffqd1amns0",
+                                                    "created": 1562747435750,
+                                                    "text": "并发能力低",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvffox8usxc0",
+                                    "created": 1562747323014,
+                                    "text": "非阻塞模型",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvffrcwv1hs0",
+                                            "created": 1562747513846,
+                                            "text": "实例",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvffrfrsguw0",
+                                                    "created": 1562747520070,
+                                                    "text": "非阻塞socket",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfftq9imy00",
+                                                    "created": 1562747699638,
+                                                    "text": "旧版tomcat，servlet",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvffrkcea5c0",
+                                            "created": 1562747530023,
+                                            "text": "特点",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvffrlxtjy80",
+                                                    "created": 1562747533495,
+                                                    "text": "轮询复用，消耗cpu资源",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvffsdlt1iw0",
+                                                    "created": 1562747593718,
+                                                    "text": "实现比阻塞模型稍难",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvffspk1xd40",
+                                                    "created": 1562747619734,
+                                                    "text": "并发能力较低",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvffozkpvhs0",
+                                    "created": 1562747328085,
+                                    "text": "复用模型",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfftdxrv0o0",
+                                            "created": 1562747672806,
+                                            "text": "实例",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfftglkgdk0",
+                                                    "created": 1562747678598,
+                                                    "text": "select，poll，epoll",
+                                                    "progress": 2,
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvffwkwjl2g0",
+                                                            "created": 1562747923062,
+                                                            "text": "select",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvffwmn05ko0",
+                                                            "created": 1562747926838,
+                                                            "text": "poll",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvffwo3ncio0",
+                                                            "created": 1562747930022,
+                                                            "text": "epoll",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvffua5c1sw0",
+                                                    "created": 1562747742920,
+                                                    "text": "JAVA NIO",
+                                                    "progress": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvffulzupg00",
+                                                    "created": 1562747768710,
+                                                    "text": "Netty",
+                                                    "progress": 2,
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvffvcoxbdc0",
+                                            "created": 1562747826823,
+                                            "text": "特点",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvffverahyg0",
+                                                    "created": 1562747831319,
+                                                    "text": "reactor模式，单一线程/进程解决阻塞问题",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvffvwvtifk0",
+                                                    "created": 1562747870775,
+                                                    "text": "开发难度略大，并发能力高",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvffpaa9spk0",
+                                    "created": 1562747351398,
+                                    "text": "信号驱动模型",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvffxe2slpc0",
+                                            "created": 1562747986566,
+                                            "text": "实例",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvffxg28yzk0",
+                                                    "created": 1562747990887,
+                                                    "text": "nodejs",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvffxk4b6co0",
+                                                    "created": 1562747999719,
+                                                    "text": "go",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvffxlwv2rs0",
+                                            "created": 1562748003622,
+                                            "text": "特点",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvffxnf48800",
+                                                    "created": 1562748006903,
+                                                    "text": "回调机制",
+                                                    "note": "* 不同语言解决方案不一样\n* js有promise\n* go采用csp模型的goroutine\n",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvffxxdoduo0",
+                                                    "created": 1562748028583,
+                                                    "text": "高并发",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvffp7eizsg0",
+                                    "created": 1562747345125,
+                                    "text": "异步模型",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvffz7fplm00",
+                                            "created": 1562748128838,
+                                            "text": "实例",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvffz90die80",
+                                                    "created": 1562748132265,
+                                                    "text": "JAVA AIO",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvffzhdgruo0",
+                                            "created": 1562748150470,
+                                            "text": "特点",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvffzmj8hpk0",
+                                                    "created": 1562748161703,
+                                                    "text": "proactor模式",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvffzvbybkg0",
+                                                    "created": 1562748180854,
+                                                    "text": "需要系统支持",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfg06gl6i80",
+                                                    "created": 1562748205079,
+                                                    "text": "高并发",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfg0s87z680",
+                                    "created": 1562748252462,
+                                    "text": "阻塞与同步概念",
+                                    "progress": 1,
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvfg1czxaqo0",
+                            "created": 1562748297673,
+                            "text": "对比",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfg1k1e9wo0",
+                                    "created": 1562748312999,
+                                    "text": "NIO面向缓冲buffer，BIO直接面向stream",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfg249uyv40",
+                                    "created": 1562748357047,
+                                    "text": "NIO非阻塞，BIO 阻塞",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfg2g2k1800",
+                                    "created": 1562748382726,
+                                    "text": "NIO采用selector注册",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvfg3eabzs00",
+                            "created": 1562748457207,
+                            "text": "注册",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfg3rbh6ig0",
+                                    "created": 1562748485575,
+                                    "text": "Selector",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfg45os5t40",
+                                            "created": 1562748516854,
+                                            "text": "结构",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfg50yz91k0",
+                                                    "created": 1562748584951,
+                                                    "text": "SelectableChannel",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfg6724ug80",
+                                                            "created": 1562748676566,
+                                                            "text": "SocketChannel",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfg6q7pz3c0",
+                                                            "created": 1562748718263,
+                                                            "text": "ServerSocketChannel",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfg6ttwf880",
+                                                            "created": 1562748726135,
+                                                            "text": "DatagramChannel",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfg751ywc80",
+                                            "created": 1562748750567,
+                                            "text": "操作",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfg77ewvzk0",
+                                                    "created": 1562748755703,
+                                                    "text": "创建选择器",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfg7d9t73k0",
+                                                            "created": 1562748768455,
+                                                            "text": "open",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfg7f2w2e80",
+                                                    "created": 1562748772391,
+                                                    "text": "选择键",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfg7tf638g0",
+                                                    "created": 1562748803608,
+                                                    "text": "通道注册",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfg858d6y00",
+                                                            "created": 1562748829318,
+                                                            "text": "register",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfg7wz7shs0",
+                                                    "created": 1562748811351,
+                                                    "text": "选择过程",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfg898uuo00",
+                                                            "created": 1562748838055,
+                                                            "text": "select",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfg3tsmto80",
+                                    "created": 1562748490966,
+                                    "text": "SelectorKey",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfg8feukeo0",
+                                            "created": 1562748851478,
+                                            "text": "事件",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfg8jw0s600",
+                                                    "created": 1562748861223,
+                                                    "text": "OP_READ",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfg8lqfs8o0",
+                                                    "created": 1562748865239,
+                                                    "text": "OP_WRITE",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfg8qyb6eg0",
+                                                    "created": 1562748876599,
+                                                    "text": "OP_CONNECT",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfg8thvxhk0",
+                                                    "created": 1562748882136,
+                                                    "text": "OP_ACCEPT",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfg98c49i80",
+                                            "created": 1562748914439,
+                                            "text": "attach",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvfgeek11540",
+                            "created": 1562749319799,
+                            "text": "通道",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfgemm14w00",
+                                    "created": 1562749337335,
+                                    "text": "分类",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfges5jos80",
+                                            "created": 1562749349399,
+                                            "text": "文件类型",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfgfnutoh40",
+                                                    "created": 1562749418407,
+                                                    "text": "FileChannel",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfgevqo0sw0",
+                                            "created": 1562749357206,
+                                            "text": "网络类型",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfgeylv90g0",
+                                                    "created": 1562749363446,
+                                                    "text": "DatagramChannel",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfgf6r24wg0",
+                                                    "created": 1562749381174,
+                                                    "text": "SocketChannel",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfgfdbwb880",
+                                                    "created": 1562749395495,
+                                                    "text": "ServersocketChannel",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfgeqko4j40",
+                                    "created": 1562749345959,
+                                    "text": "操作",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfgfyy46m00",
+                                            "created": 1562749442551,
+                                            "text": "创建",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfgg2ss5400",
+                                                    "created": 1562749450935,
+                                                    "text": "getChannel",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfgg7g9afk0",
+                                            "created": 1562749461062,
+                                            "text": "读写",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfgg9j55ig0",
+                                                    "created": 1562749465590,
+                                                    "text": "read",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfgge2f63c0",
+                                                    "created": 1562749475463,
+                                                    "text": "write",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfggo4ejmo0",
+                                                    "created": 1562749497351,
+                                                    "text": "block wait",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfggl7wt6w0",
+                                            "created": 1562749491032,
+                                            "text": "数据转移操作",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfggwmalnk0",
+                                                    "created": 1562749515847,
+                                                    "text": "transferTo",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfgh7mfd7c0",
+                                                    "created": 1562749539799,
+                                                    "text": "transferFrom",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfghb67lu80",
+                                                    "created": 1562749547526,
+                                                    "text": "文件读写",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfghjjuzzk0",
+                                                            "created": 1562749565766,
+                                                            "text": "系统态用户态",
+                                                            "progress": 1,
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfgib5rfjc0",
+                                            "created": 1562749625863,
+                                            "text": "内存操作",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfgid0yve80",
+                                                    "created": 1562749629927,
+                                                    "text": "mapping",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfgig2iheo0",
+                                            "created": 1562749636551,
+                                            "text": "其他",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfgiijycz40",
+                                                    "created": 1562749641959,
+                                                    "text": "force",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfgilc996o0",
+                                                    "created": 1562749648023,
+                                                    "text": "truncate",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bvfgip910e00",
+                                    "created": 1562749656535,
+                                    "text": "socketChannel",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfgit117a00",
+                                            "created": 1562749664759,
+                                            "text": "创建",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfgjcqpo3c0",
+                                                    "created": 1562749707671,
+                                                    "text": "open",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfgj4phomw0",
+                                            "created": 1562749690183,
+                                            "text": "绑定读写",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfgj8rbako0",
+                                                    "created": 1562749699000,
+                                                    "text": "bind",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvfgjf2vr0o0",
+                                            "created": 1562749712760,
+                                            "text": "关闭通道",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfgjjdnitc0",
+                                                    "created": 1562749722118,
+                                                    "text": "close",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvfgjoay11k0",
+                            "created": 1562749732839,
+                            "text": "缓冲",
+                            "layout": null,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfgk8vcag80",
+                                    "created": 1562749777608,
+                                    "text": "实例",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvfgkbi28kg0",
+                                            "created": 1562749783335,
+                                            "text": "Buffer",
+                                            "layout": null,
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bvfgnjx876w0",
+                                                    "created": 1562750036759,
+                                                    "text": "按位置分类",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfgnmz1fp40",
+                                                            "created": 1562750043399,
+                                                            "text": "DirectBuffer",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfgnrd11i00",
+                                                            "created": 1562750052952,
+                                                            "text": "HeapBuffer",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfgnv2wphk0",
+                                                    "created": 1562750061047,
+                                                    "text": "按数据类型分类",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfgo71p3qg0",
+                                                            "created": 1562750087095,
+                                                            "text": "IntBuffer",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfgoacsk4o0",
+                                                            "created": 1562750094296,
+                                                            "text": "ByteBuffer",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfgoczi4kw0",
+                                                            "created": 1562750100023,
+                                                            "text": "LongBuffer",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfgofsv5qw0",
+                                                            "created": 1562750106152,
+                                                            "text": "....",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfgziv3vag0",
+                                                    "created": 1562750974824,
+                                                    "text": "属性",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfgzlc1kvs0",
+                                                            "created": 1562750980201,
+                                                            "text": "capacity",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfgzouhzy00",
+                                                            "created": 1562750987848,
+                                                            "text": "limit",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfgzqnhmcg0",
+                                                            "created": 1562750991777,
+                                                            "text": "position",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfgzrwaup40",
+                                                            "created": 1562750994487,
+                                                            "text": "mark",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bvfh0a9ap400",
+                                                    "created": 1562751034455,
+                                                    "text": "常用buffer",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfh0t3i9k80",
+                                                            "created": 1562751075464,
+                                                            "text": "ByteBuffer",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvfh1dbh9js0",
+                                                                    "created": 1562751119481,
+                                                                    "text": "属性",
+                                                                    "layout": null
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bvfh1fjvvq80",
+                                                                            "created": 1562751124343,
+                                                                            "text": "hb",
+                                                                            "progress": 1,
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bvfh1iyf7sg0",
+                                                                            "created": 1562751131752,
+                                                                            "text": "offset",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvfh1mqphy80",
+                                                                    "created": 1562751139993,
+                                                                    "text": "初始化",
+                                                                    "layout": null
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bvfh4bsco800",
+                                                                            "created": 1562751351240,
+                                                                            "text": "allocate",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bvfh4ecyodc0",
+                                                                            "created": 1562751356840,
+                                                                            "text": "wrap",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvfh5q44vwg0",
+                                                                    "created": 1562751460792,
+                                                                    "text": "读写",
+                                                                    "layout": null
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bvfh5sjqjv40",
+                                                                            "created": 1562751466089,
+                                                                            "text": "get",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bvfh5teyh6w0",
+                                                                            "created": 1562751467977,
+                                                                            "text": "put",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bvfh5ula6ts0",
+                                                                            "created": 1562751470536,
+                                                                            "text": "flip",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bvfh5vql0eo0",
+                                                                            "created": 1562751473033,
+                                                                            "text": "rewind",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvfh63ug75c0",
+                                                                    "created": 1562751490681,
+                                                                    "text": "标记",
+                                                                    "layout": null
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bvfh66j9shc0",
+                                                                            "created": 1562751496536,
+                                                                            "text": "mark",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bvfh6b5gago0",
+                                                                            "created": 1562751506584,
+                                                                            "text": "reset",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvfh6je2mhc0",
+                                                                    "created": 1562751524520,
+                                                                    "text": "清除",
+                                                                    "layout": null
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bvfh6l4w3lk0",
+                                                                            "created": 1562751528318,
+                                                                            "text": "clrear",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfh0xi9q8w0",
+                                                            "created": 1562751085063,
+                                                            "text": "DirectByteBuffer",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bvfh6q4gt2o0",
+                                                            "created": 1562751539176,
+                                                            "text": "差异",
+                                                            "layout": null
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvfh6rerufk0",
+                                                                    "created": 1562751541976,
+                                                                    "text": "DirectBuffer",
+                                                                    "layout": null
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bvfh73ppg1c0",
+                                                                            "created": 1562751568759,
+                                                                            "text": "空间固定，不会受gc时候内存空间整理影响\n分配速度慢，回收策略复杂",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bvfh9s439u00",
+                                                                    "created": 1562751778600,
+                                                                    "text": "HeapBuffer",
+                                                                    "layout": null
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bvfh9v03c540",
+                                                                            "created": 1562751784888,
+                                                                            "text": "空间分配归jvm管理，受内存comapct影响\n速度快，不用关心回收",
+                                                                            "layout": null
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvfhdqbshjc0",
+                            "created": 1562752088168,
+                            "text": "管道",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvfhe9aht800",
+                                    "created": 1562752129449,
+                                    "text": "source+sink"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
