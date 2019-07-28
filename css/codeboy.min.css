@@ -1,10 +1,10 @@
-body {
+/* body {
   font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   font-size: 16px;
   color: #404040;
   overflow-x: hidden;
-}
+} */
 p {
   margin: 30px 0;
 }
@@ -493,9 +493,9 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
-body {
+/* body {
   webkit-tap-highlight-color: #0085a1;
-}
+} */
 /* add tags support */
 .tags {
   margin-bottom: -5px;
