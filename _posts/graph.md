@@ -1,2 +1,0 @@
-graph LR
-ad-->bd
