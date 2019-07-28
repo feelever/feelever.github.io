@@ -1,10 +1,10 @@
-/* body {
+body {
   font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   font-size: 16px;
   color: #404040;
   overflow-x: hidden;
-} */
+}
 p {
   margin: 30px 0;
 }
@@ -209,13 +209,13 @@ hr.small {
   padding: 100px 0 50px;
   color: white;
 }
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    /* padding: 150px 0; */
+    padding: 150px 0;
   }
-} */
+}
 .intro-header .site-heading,
 .intro-header .page-heading {
   text-align: center;
@@ -493,9 +493,9 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
-/* body {
+body {
   webkit-tap-highlight-color: #0085a1;
-} */
+}
 /* add tags support */
 .tags {
   margin-bottom: -5px;
@@ -616,6 +616,7 @@ img::-moz-selection {
 /* Tags support End*/
 /* make all img responsible in post-container */
 .post-container img {
+  display: block;
   max-width: 100%;
   height: auto;
   margin: 1.5em auto 1.6em auto;
