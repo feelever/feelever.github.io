@@ -39,6 +39,9 @@ gems:      ["jekyll-paginate"]
 
 # Conversion
 markdown:    kramdown
+kramdown: 
+    input: GFM 
+    syntax_highlighter: rouge 
 highlighter: rouge
 lsi:         false
 excerpt_separator: "\n\n"
