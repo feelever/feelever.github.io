@@ -1,7 +1,7 @@
-#囫囵吞枣读源码
-目的：不做编译不debug，只是捋一遍
-工具:windows+MinGw+vscode;方便寻找相关代码
-源码架构,来源：R大
+# 囫囵吞枣读源码
+* 目的：不做编译不debug，只是捋一遍
+* 工具:windows+MinGw+vscode;方便寻找相关代码
+* 源码架构,来源：R大
 ```
 ├─agent                            Serviceability Agent的客户端实现
 ├─make                             用来build出HotSpot的各种配置文件
@@ -43,4 +43,6 @@
 │          └─utilities                  一些基本的工具类
 └─test                             单元测试
 ```
-导航路径：https://rednaxelafx.iteye.com/blog/1549577
+## 参考
+https://rednaxelafx.iteye.com/blog/1549577
+https://rednaxelafx.iteye.com/blog/1549577
