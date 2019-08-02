@@ -1,0 +1,37 @@
+{
+    "root": {
+        "data": {
+            "id": "bvpj077rxgw0",
+            "created": 1563772269619,
+            "text": "IO模型"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bvpj081mz4g0",
+                    "created": 1563772271425,
+                    "text": "Select"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvpj0n6qg9s0",
+                            "created": 1563772304385,
+                            "text": "topic",
+                            "image": "https://images0.cnblogs.com/blog/305504/201308/17201205-8ac47f1f1fcd4773bd4edd947c0bb1f4.png",
+                            "imageTitle": "",
+                            "imageSize": {
+                                "width": 200,
+                                "height": 116
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
