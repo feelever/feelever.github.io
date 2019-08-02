@@ -217,7 +217,7 @@ ThreadProfilerMark->StackObj->AllocatedObj
        9.  检查superclass 没有就加载，并确认验证是否有默认方法，是否接口，是否final，统计接口实现信息，method sort
        10. compute_vtable_size_and_num_mirandas：vtable和米兰达方法，itable统计，Compute reference type
        11. allocate_instance_klass//实例化对象
-       ```
+    ```
              _klass = InstanceKlass::allocate_instance_klass(loader_data,
                                                     vtable_size,
                                                     itable_size,
@@ -328,126 +328,126 @@ ThreadProfilerMark->StackObj->AllocatedObj
             // Allocate mirror and initialize static fields
             java_lang_Class::create_mirror(this_klass, protection_domain, CHECK_(nullHandle));
             // Generate any default methods - default methods are interface methods
-        // that have a default implementation.  This is new with Lambda project.
-        if (has_default_methods && !access_flags.is_interface() &&
-            local_interfaces->length() > 0) {
-        DefaultMethods::generate_default_methods(
-            this_klass(), &all_mirandas, CHECK_(nullHandle));
-        }
+            // that have a default implementation.  This is new with Lambda project.
+            if (has_default_methods && !access_flags.is_interface() &&
+                local_interfaces->length() > 0) {
+            DefaultMethods::generate_default_methods(
+                this_klass(), &all_mirandas, CHECK_(nullHandle));
+            }
 
-        // Update the loader_data graph.
-        record_defined_class_dependencies(this_klass, CHECK_NULL);
-        ClassLoadingService::notify_class_loaded(InstanceKlass::cast(this_klass()),
-                                                false /* not shared class */);
-            if (TraceClassLoading) {
-            ResourceMark rm;
-            // print in a single call to reduce interleaving of output
-            if (cfs->source() != NULL) {
-                tty->print("[Loaded %s from %s]\n", this_klass->external_name(),
-                        cfs->source());
-            } else if (class_loader.is_null()) {
-                if (THREAD->is_Java_thread()) {
-                Klass* caller = ((JavaThread*)THREAD)->security_get_caller_class(1);
-                tty->print("[Loaded %s by instance of %s]\n",
-                            this_klass->external_name(),
-                            InstanceKlass::cast(caller)->external_name());
+            // Update the loader_data graph.
+            record_defined_class_dependencies(this_klass, CHECK_NULL);
+            ClassLoadingService::notify_class_loaded(InstanceKlass::cast(this_klass()),
+                                                    false /* not shared class */);
+                if (TraceClassLoading) {
+                ResourceMark rm;
+                // print in a single call to reduce interleaving of output
+                if (cfs->source() != NULL) {
+                    tty->print("[Loaded %s from %s]\n", this_klass->external_name(),
+                            cfs->source());
+                } else if (class_loader.is_null()) {
+                    if (THREAD->is_Java_thread()) {
+                    Klass* caller = ((JavaThread*)THREAD)->security_get_caller_class(1);
+                    tty->print("[Loaded %s by instance of %s]\n",
+                                this_klass->external_name(),
+                                InstanceKlass::cast(caller)->external_name());
+                    } else {
+                    tty->print("[Loaded %s]\n", this_klass->external_name());
+                    }
                 } else {
-                tty->print("[Loaded %s]\n", this_klass->external_name());
+                    tty->print("[Loaded %s from %s]\n", this_klass->external_name(),
+                            InstanceKlass::cast(class_loader->klass())->external_name());
+                }
+                }
+
+            if (TraceClassResolution) {
+            ResourceMark rm;
+            // print out the superclass.
+            const char * from = this_klass()->external_name();
+            if (this_klass->java_super() != NULL) {
+                tty->print("RESOLVE %s %s (super)\n", from, InstanceKlass::cast(this_klass->java_super())->external_name());
+            }
+            // print out each of the interface classes referred to by this class.
+            Array<Klass*>* local_interfaces = this_klass->local_interfaces();
+            if (local_interfaces != NULL) {
+                int length = local_interfaces->length();
+                for (int i = 0; i < length; i++) {
+                Klass* k = local_interfaces->at(i);
+                InstanceKlass* to_class = InstanceKlass::cast(k);
+                const char * to = to_class->external_name();
+                tty->print("RESOLVE %s %s (interface)\n", from, to);
+                }
+            }
+            }
+
+            // preserve result across HandleMark
+            preserve_this_klass = this_klass();
+            }
+
+            // Create new handle outside HandleMark (might be needed for
+            // Extended Class Redefinition)
+            instanceKlassHandle this_klass (THREAD, preserve_this_klass);
+            debug_only(this_klass->verify();)
+
+            // Clear class if no error has occurred so destructor doesn't deallocate it
+            _klass = NULL;
+            return this_klass;              
+            InstanceKlass* InstanceKlass::allocate_instance_klass(
+                                                ClassLoaderData* loader_data,
+                                                int vtable_len,
+                                                int itable_len,
+                                                int static_field_size,
+                                                int nonstatic_oop_map_size,
+                                                ReferenceType rt,
+                                                AccessFlags access_flags,
+                                                Symbol* name,
+                                                Klass* super_klass,
+                                                bool is_anonymous,
+                                                TRAPS) {
+
+            int size = InstanceKlass::size(vtable_len, itable_len, nonstatic_oop_map_size,
+                                            access_flags.is_interface(), is_anonymous);
+
+            // Allocation
+            InstanceKlass* ik;
+            if (rt == REF_NONE) {
+                if (name == vmSymbols::java_lang_Class()) {
+                ik = new (loader_data, size, THREAD) InstanceMirrorKlass(
+                    vtable_len, itable_len, static_field_size, nonstatic_oop_map_size, rt,
+                    access_flags, is_anonymous);
+                } else if (name == vmSymbols::java_lang_ClassLoader() ||
+                    (SystemDictionary::ClassLoader_klass_loaded() &&
+                    super_klass != NULL &&
+                    super_klass->is_subtype_of(SystemDictionary::ClassLoader_klass()))) {
+                ik = new (loader_data, size, THREAD) InstanceClassLoaderKlass(
+                    vtable_len, itable_len, static_field_size, nonstatic_oop_map_size, rt,
+                    access_flags, is_anonymous);
+                } else {
+                // normal class
+                ik = new (loader_data, size, THREAD) InstanceKlass(
+                    vtable_len, itable_len, static_field_size, nonstatic_oop_map_size, rt,
+                    access_flags, is_anonymous);
                 }
             } else {
-                tty->print("[Loaded %s from %s]\n", this_klass->external_name(),
-                        InstanceKlass::cast(class_loader->klass())->external_name());
+                // reference klass
+                ik = new (loader_data, size, THREAD) InstanceRefKlass(
+                    vtable_len, itable_len, static_field_size, nonstatic_oop_map_size, rt,
+                    access_flags, is_anonymous);
             }
+
+            // Check for pending exception before adding to the loader data and incrementing
+            // class count.  Can get OOM here.
+            if (HAS_PENDING_EXCEPTION) {
+                return NULL;
             }
 
-        if (TraceClassResolution) {
-        ResourceMark rm;
-        // print out the superclass.
-        const char * from = this_klass()->external_name();
-        if (this_klass->java_super() != NULL) {
-            tty->print("RESOLVE %s %s (super)\n", from, InstanceKlass::cast(this_klass->java_super())->external_name());
-        }
-        // print out each of the interface classes referred to by this class.
-        Array<Klass*>* local_interfaces = this_klass->local_interfaces();
-        if (local_interfaces != NULL) {
-            int length = local_interfaces->length();
-            for (int i = 0; i < length; i++) {
-            Klass* k = local_interfaces->at(i);
-            InstanceKlass* to_class = InstanceKlass::cast(k);
-            const char * to = to_class->external_name();
-            tty->print("RESOLVE %s %s (interface)\n", from, to);
+            // Add all classes to our internal class loader list here,
+            // including classes in the bootstrap (NULL) class loader.
+            loader_data->add_class(ik);
+
+            Atomic::inc(&_total_instanceKlass_count);
+            return ik;
             }
-        }
-        }
-
-        // preserve result across HandleMark
-        preserve_this_klass = this_klass();
-        }
-
-        // Create new handle outside HandleMark (might be needed for
-        // Extended Class Redefinition)
-        instanceKlassHandle this_klass (THREAD, preserve_this_klass);
-        debug_only(this_klass->verify();)
-
-        // Clear class if no error has occurred so destructor doesn't deallocate it
-        _klass = NULL;
-        return this_klass;              
-        InstanceKlass* InstanceKlass::allocate_instance_klass(
-                                              ClassLoaderData* loader_data,
-                                              int vtable_len,
-                                              int itable_len,
-                                              int static_field_size,
-                                              int nonstatic_oop_map_size,
-                                              ReferenceType rt,
-                                              AccessFlags access_flags,
-                                              Symbol* name,
-                                              Klass* super_klass,
-                                              bool is_anonymous,
-                                              TRAPS) {
-
-        int size = InstanceKlass::size(vtable_len, itable_len, nonstatic_oop_map_size,
-                                        access_flags.is_interface(), is_anonymous);
-
-        // Allocation
-        InstanceKlass* ik;
-        if (rt == REF_NONE) {
-            if (name == vmSymbols::java_lang_Class()) {
-            ik = new (loader_data, size, THREAD) InstanceMirrorKlass(
-                vtable_len, itable_len, static_field_size, nonstatic_oop_map_size, rt,
-                access_flags, is_anonymous);
-            } else if (name == vmSymbols::java_lang_ClassLoader() ||
-                (SystemDictionary::ClassLoader_klass_loaded() &&
-                super_klass != NULL &&
-                super_klass->is_subtype_of(SystemDictionary::ClassLoader_klass()))) {
-            ik = new (loader_data, size, THREAD) InstanceClassLoaderKlass(
-                vtable_len, itable_len, static_field_size, nonstatic_oop_map_size, rt,
-                access_flags, is_anonymous);
-            } else {
-            // normal class
-            ik = new (loader_data, size, THREAD) InstanceKlass(
-                vtable_len, itable_len, static_field_size, nonstatic_oop_map_size, rt,
-                access_flags, is_anonymous);
-            }
-        } else {
-            // reference klass
-            ik = new (loader_data, size, THREAD) InstanceRefKlass(
-                vtable_len, itable_len, static_field_size, nonstatic_oop_map_size, rt,
-                access_flags, is_anonymous);
-        }
-
-        // Check for pending exception before adding to the loader data and incrementing
-        // class count.  Can get OOM here.
-        if (HAS_PENDING_EXCEPTION) {
-            return NULL;
-        }
-
-        // Add all classes to our internal class loader list here,
-        // including classes in the bootstrap (NULL) class loader.
-        loader_data->add_class(ik);
-
-        Atomic::inc(&_total_instanceKlass_count);
-        return ik;
-        }
     ```
        
     * add_package
