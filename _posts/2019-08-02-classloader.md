@@ -391,7 +391,10 @@ ThreadProfilerMark->StackObj->AllocatedObj
 
             // Clear class if no error has occurred so destructor doesn't deallocate it
             _klass = NULL;
-            return this_klass;              
+            return this_klass;
+    ```
+    InstanceKlass的操作
+    ```            
             InstanceKlass* InstanceKlass::allocate_instance_klass(
                                                 ClassLoaderData* loader_data,
                                                 int vtable_len,
@@ -451,7 +454,7 @@ ThreadProfilerMark->StackObj->AllocatedObj
     ```
        
     * add_package
-* initialize
+    * initialize
     * UsePerfData?->jvmstat performance counters
     * load_zip_library
     * setup_bootstrap_search_path
