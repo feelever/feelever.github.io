@@ -328,39 +328,37 @@ ThreadProfilerMark->StackObj->AllocatedObj
             // Allocate mirror and initialize static fields
             java_lang_Class::create_mirror(this_klass, protection_domain, CHECK_(nullHandle));
             // Generate any default methods - default methods are interface methods
-    // that have a default implementation.  This is new with Lambda project.
-    if (has_default_methods && !access_flags.is_interface() &&
-        local_interfaces->length() > 0) {
-      DefaultMethods::generate_default_methods(
-          this_klass(), &all_mirandas, CHECK_(nullHandle));
-    }
+        // that have a default implementation.  This is new with Lambda project.
+        if (has_default_methods && !access_flags.is_interface() &&
+            local_interfaces->length() > 0) {
+        DefaultMethods::generate_default_methods(
+            this_klass(), &all_mirandas, CHECK_(nullHandle));
+        }
 
-    // Update the loader_data graph.
-    record_defined_class_dependencies(this_klass, CHECK_NULL);
-
-    ClassLoadingService::notify_class_loaded(InstanceKlass::cast(this_klass()),
-                                             false /* not shared class */);
-
-        if (TraceClassLoading) {
-        ResourceMark rm;
-        // print in a single call to reduce interleaving of output
-        if (cfs->source() != NULL) {
-            tty->print("[Loaded %s from %s]\n", this_klass->external_name(),
-                    cfs->source());
-        } else if (class_loader.is_null()) {
-            if (THREAD->is_Java_thread()) {
-            Klass* caller = ((JavaThread*)THREAD)->security_get_caller_class(1);
-            tty->print("[Loaded %s by instance of %s]\n",
-                        this_klass->external_name(),
-                        InstanceKlass::cast(caller)->external_name());
+        // Update the loader_data graph.
+        record_defined_class_dependencies(this_klass, CHECK_NULL);
+        ClassLoadingService::notify_class_loaded(InstanceKlass::cast(this_klass()),
+                                                false /* not shared class */);
+            if (TraceClassLoading) {
+            ResourceMark rm;
+            // print in a single call to reduce interleaving of output
+            if (cfs->source() != NULL) {
+                tty->print("[Loaded %s from %s]\n", this_klass->external_name(),
+                        cfs->source());
+            } else if (class_loader.is_null()) {
+                if (THREAD->is_Java_thread()) {
+                Klass* caller = ((JavaThread*)THREAD)->security_get_caller_class(1);
+                tty->print("[Loaded %s by instance of %s]\n",
+                            this_klass->external_name(),
+                            InstanceKlass::cast(caller)->external_name());
+                } else {
+                tty->print("[Loaded %s]\n", this_klass->external_name());
+                }
             } else {
-            tty->print("[Loaded %s]\n", this_klass->external_name());
+                tty->print("[Loaded %s from %s]\n", this_klass->external_name(),
+                        InstanceKlass::cast(class_loader->klass())->external_name());
             }
-        } else {
-            tty->print("[Loaded %s from %s]\n", this_klass->external_name(),
-                    InstanceKlass::cast(class_loader->klass())->external_name());
-        }
-        }
+            }
 
         if (TraceClassResolution) {
         ResourceMark rm;
@@ -450,7 +448,7 @@ ThreadProfilerMark->StackObj->AllocatedObj
         Atomic::inc(&_total_instanceKlass_count);
         return ik;
         }
-       ```
+    ```
        
     * add_package
 * initialize
