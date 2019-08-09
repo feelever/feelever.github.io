@@ -1,0 +1,215 @@
+{
+    "root": {
+        "data": {
+            "id": "bw4v7kbilmg0",
+            "created": 1565330099361,
+            "text": "NLP"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bw4v7mttly80",
+                    "created": 1565330104822,
+                    "text": "Word Embedding"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bw4v7xdjvj40",
+                            "created": 1565330127783,
+                            "text": "Word2Vec"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bw4v83g3js00",
+                                    "created": 1565330140997,
+                                    "text": "CBOW"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bw4v85izwl40",
+                                    "created": 1565330145526,
+                                    "text": "SKIP-GRAM"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bw4v88e7jcw0",
+                            "created": 1565330151767,
+                            "text": "GloVe"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bw4v8ky53nc0",
+                    "created": 1565330179094,
+                    "text": "RNN"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bw4v8m8zfco0",
+                            "created": 1565330181926,
+                            "text": "LSTM"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw4v8pbc7eg0",
+                            "created": 1565330188599,
+                            "text": "GRU"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw4v8r60ccw0",
+                            "created": 1565330192630,
+                            "text": "Seq2Seq"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw4v8xspnsw0",
+                            "created": 1565330207064,
+                            "text": "Attention/Self Attention"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bw4v95fuwv40",
+                    "created": 1565330223701,
+                    "text": "Contextual Word Embedding",
+                    "layout_mind_offset": {
+                        "x": 643,
+                        "y": 433
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bw4v9ly739s0",
+                            "created": 1565330259638,
+                            "text": "ELMo"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw4v9t8ote00",
+                            "created": 1565330275510,
+                            "text": "OpenAI  GPT"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw4va0zl9880",
+                            "created": 1565330292374,
+                            "text": "BERT"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bw4vakmnkhs0",
+                    "created": 1565330335127,
+                    "text": "机器学习",
+                    "layout_mind_offset": {
+                        "x": -87,
+                        "y": -154
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bw4vaq4ukeo0",
+                            "created": 1565330347111,
+                            "text": "TF-IDF",
+                            "progress": 8
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw4vauxcdbk0",
+                            "created": 1565330357542,
+                            "text": "TextRank",
+                            "progress": 8
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw4vax7n8hc0",
+                            "created": 1565330362518,
+                            "text": "Language Model",
+                            "progress": 8
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw4vb0rghsg0",
+                            "created": 1565330370246,
+                            "text": "BM25",
+                            "progress": 8
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw4vbe5kc200",
+                            "created": 1565330399398,
+                            "text": "决策树"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw4vbjx9vhc0",
+                            "created": 1565330411957,
+                            "text": "随机森林"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw4vbm2tgg80",
+                            "created": 1565330416646,
+                            "text": "隐马尔可夫HMM"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw4vcbys8m80",
+                            "created": 1565330472998,
+                            "text": "条件随机场"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
