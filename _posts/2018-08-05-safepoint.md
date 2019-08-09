@@ -1,4 +1,4 @@
-# safepoint
+# NLP
 ## 场景
 * Running interpreted：interpeter dispatch table强行要求其检验安全点；
 * Running in native code:使用一种叫做serialization page的内存记录法处理本地调用后返回os::serialize_thread_states()
@@ -13,3 +13,4 @@ Threads_lock->lock();//通过快速锁和自旋锁进行快速锁定，不用重
     TrySpin(); //SpinPause(),delay *= 1 + 1/Exponent;Delay += 1 + (Delay/4); Delay &= 0x7FF ;
 RuntimeService::record_safepoint_begin();
 ```
+# TODO
