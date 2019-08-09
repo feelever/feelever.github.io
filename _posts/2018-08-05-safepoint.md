@@ -1,4 +1,4 @@
-# NLP
+# safepoint
 ## 场景
 * Running interpreted：interpeter dispatch table强行要求其检验安全点；
 * Running in native code:使用一种叫做serialization page的内存记录法处理本地调用后返回os::serialize_thread_states()
