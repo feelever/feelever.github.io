@@ -616,7 +616,7 @@ body {
 /* Tags support End*/
 /* make all img responsible in post-container */
 .post-container img {
-  display: block;
+  /* display: block; */
   max-width: 100%;
   height: auto;
   margin: 1.5em auto 1.6em auto;
